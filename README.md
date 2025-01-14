@@ -23,6 +23,16 @@ El proyecto desarrollado a continuación explora la creación de un Tienda con f
 - Entities
 - Decoradores de TypeORM para entidades
 - Métodos BeforeInsert, BeforeUpdate
+- Relaciones
+  - De uno a muchos
+  - Muchos a uno
+- Query Runner
+- Query Builder
+- Transacciones
+- Commits y Rollbacks
+- Renombrar tablas
+- Creación de un SEED
+- Aplanar resultados
 
 ## Requerimientos
 
