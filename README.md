@@ -45,6 +45,7 @@ El proyecto desarrollado a continuación explora la creación de un Tienda con f
 - Custom Property Decorators
 - Enlazar usuarios con productos
 - Bearer Tokens
+- Nest Swagger
 
 ## Requerimientos
 
