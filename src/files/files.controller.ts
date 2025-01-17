@@ -15,6 +15,7 @@ import { FilesService } from './files.service';
 import { fileFilter } from './helpers/fileFilter.helper';
 import { fileNamer } from './helpers/fileNamer.helper';
 import { ConfigService } from '@nestjs/config';
+import { ApiTags } from '@nestjs/swagger';
 
 @Controller('files')
 export class FilesController {
@@ -33,6 +34,7 @@ export class FilesController {
     res.sendFile(path);
   }
 
+  @ApiTags('Archivos')
   @Post('product')
   @UseInterceptors(
     FileInterceptor('file', {
