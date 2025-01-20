@@ -11,6 +11,7 @@ Este es un repositorio personal para ejecución del proyecto del curso **NestJS:
 El proyecto desarrollado a continuación explora la creación de un Tienda con funcionalidades básicas y conexión a una base de datos Postgresql para aplicar diferentes conceptos del framework para backend Nest:
 
 **Conceptos aplicados**
+_CRUD_
 
 - TypeORM
 - Postgres
@@ -33,6 +34,7 @@ El proyecto desarrollado a continuación explora la creación de un Tienda con f
 - Renombrar tablas
 - Creación de un SEED
 - Aplanar resultados
+  _AUTH_
 - Autenticación
 - Autorización
 - Json Web Tokens
@@ -45,7 +47,18 @@ El proyecto desarrollado a continuación explora la creación de un Tienda con f
 - Custom Property Decorators
 - Enlazar usuarios con productos
 - Bearer Tokens
+  _API DOCUMENTATION_
 - Nest Swagger
+- Nest Gateways
+  _WEB SOCKETS_
+- Conexiones
+- Desconexiones
+- Emitir y escuchar mensajes desde el servidor y cliente
+- Cliente con Vite y TS
+- Autenticar conexión mediante JWTs
+- Usar mismo mecanismos de autenticación previamente creado
+- Desconectar sockets manualmente
+- Prevenir doble conexión de usuarios autenticados.
 
 ## Requerimientos
 
